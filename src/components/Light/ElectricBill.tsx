@@ -1,13 +1,13 @@
 "use client";
 import { useState } from "react";
 import { Input } from "@heroui/input";
-import { Button, ButtonGroup } from "@heroui/button";
+import { Button } from "@heroui/button";
 import { Card, CardHeader, CardBody, CardFooter } from "@heroui/card";
 import { Spinner } from "@heroui/spinner";
 import { Skeleton } from "@heroui/skeleton";
 import { RadioGroup, Radio } from "@heroui/radio";
 import { Divider } from "@heroui/divider";
-import { Avatar, AvatarGroup, AvatarIcon } from "@heroui/avatar";
+import { Avatar, AvatarIcon } from "@heroui/avatar";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 
@@ -86,11 +86,11 @@ const ElectricBill = () => {
       <Card className="w-96" radius="lg">
         <CardHeader className="flex gap-3">
           <Avatar
-            isBordered
-            radius="sm"
+           // isBordered
+           // radius="sm"
             size="lg"
-            alt="BillBazaar logo"
-            src={`/images/ElectricCompaniesImages/bill.svg`}
+            alt="logo"
+            src={`/images/ElectricCompaniesImages/${id}.png`}
           />
           <div className="flex flex-col">
             <p className="text-lg text-start">Bill Bazaar</p>

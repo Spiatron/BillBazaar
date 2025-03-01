@@ -7,57 +7,57 @@ function BillBoxes() {
     {
       id: "lescobill",
       title: "Lahore Electric Supply Company",
-      img: "/images/ElectricCompaniesImages/lesco.png",
+      img: "/images/ElectricCompaniesImages/lescobill.png",
     },
     {
       id: "gepcobill",
       title: "Gujranwala Electric Power Company",
-      img: "/images/ElectricCompaniesImages/gepco.png",
+      img: "/images/ElectricCompaniesImages/gepcobill.png",
     },
     {
       id: "fescobill",
       title: "Faisalabad Electric Supply Company",
-      img: "/images/ElectricCompaniesImages/bill.svg",
+      img: "/images/ElectricCompaniesImages/fescobill.png",
     },
     {
       id: "iescobill",
       title: "Islamabad Electric Supply Company",
-      img: "/images/ElectricCompaniesImages/bill.svg",
+      img: "/images/ElectricCompaniesImages/iescobill.png",
     },
     {
       id: "mepcobill",
       title: "Multan Electric Power Company",
-      img: "/images/ElectricCompaniesImages/bill.svg",
+      img: "/images/ElectricCompaniesImages/mepcobill.png",
     },
     {
       id: "pescobill",
       title: "Peshawar Electric Supply Company",
-      img: "/images/ElectricCompaniesImages/pesco.png",
+      img: "/images/ElectricCompaniesImages/pescobill.png",
     },
     {
       id: "hescobill",
       title: "Hyderabad Electric Supply Company",
-      img: "/images/ElectricCompaniesImages/bill.svg",
+      img: "/images/ElectricCompaniesImages/hescobill.png",
     },
     {
       id: "sepcoebill",
       title: "Sukkur Electric Power Company",
-      img: "/images/ElectricCompaniesImages/bill.svg",
+      img: "/images/ElectricCompaniesImages/sepcoebill.png",
     },
     {
       id: "qescobill",
       title: "Quetta Electric Supply Company",
-      img: "/images/ElectricCompaniesImages/bill.svg",
+      img: "/images/ElectricCompaniesImages/qescobill.png",
     },
     {
       id: "tescobill",
       title: "Tribal Electric Supply Company",
-      img: "/images/ElectricCompaniesImages/bill.svg",
+      img: "/images/ElectricCompaniesImages/tescobill.png",
     },
     {
       id: "kelectricbill",
       title: "K-Electric",
-      img: "/images/ElectricCompaniesImages/bill.svg",
+      img: "/images/ElectricCompaniesImages/kelectricbill.png",
     },
   ];
 
