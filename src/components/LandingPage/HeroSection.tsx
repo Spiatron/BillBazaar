@@ -25,8 +25,8 @@ const billCategories = [
     img: "/images/heroSection/gasBill.svg",
   },
   {
-    title: "tracking",
-    img: "/images/heroSection/tracking.svg",
+    title: "Internet Bills",
+    img: "/images/heroSection/internetBill.svg",
   },
   {
     title: "Water Bills",

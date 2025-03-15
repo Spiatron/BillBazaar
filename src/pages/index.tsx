@@ -1,5 +1,5 @@
 import DefaultLayout from "@/layouts/default";
-import { HeroSection } from "@/components/HeroSection";
+import { HeroSection } from "@/components/LandingPage/HeroSection";
 
 export default function IndexPage() {
   return (

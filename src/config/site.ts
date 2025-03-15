@@ -38,43 +38,32 @@ export const siteConfig = {
   ],
   navMenuItems: [
     {
-      label: "Profile",
-      href: "/profile",
+      label: "Home",
+      href: "/",
+      Icon: SiGooglehome,
     },
     {
-      label: "Dashboard",
-      href: "/dashboard",
+      label: "light Bills",
+      href: "/light",
+      Icon: FaRegLightbulb,
     },
     {
-      label: "Projects",
-      href: "/projects",
+      label: "Gas Bills",
+      href: "/gas",
+      Icon: FaFire,
     },
     {
-      label: "Team",
-      href: "/team",
+      label: "About",
+      href: "/about",
+      Icon: FaInfoCircle,
     },
     {
-      label: "Calendar",
-      href: "/calendar",
-    },
-    {
-      label: "Settings",
-      href: "/settings",
-    },
-    {
-      label: "Help & Feedback",
-      href: "/help-feedback",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
+      label: "Contact Us",
+      href: "/ContactUs",
+      Icon: RiContactsFill,
     },
   ],
   links: {
-    github: "https://github.com/nextui-org/nextui",
-    twitter: "https://twitter.com/getnextui",
-    docs: "https://nextui.org",
-    discord: "https://discord.gg/9b6yyZKmH4",
     sponsor: "https://patreon.com/Spiatron",
   },
 };

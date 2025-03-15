@@ -1,8 +1,6 @@
 import DefaultLayout from "@/layouts/default";
 import SSGC from "@/components/Gas/SSGC";
 
-
-
 export default function DocsPage() {
   return (
     <DefaultLayout>

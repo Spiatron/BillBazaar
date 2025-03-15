@@ -54,16 +54,16 @@ function BillBoxes() {
       title: "Tribal Electric Supply Company",
       img: "/images/ElectricCompaniesImages/tescobill.png",
     },
-    {
-      id: "kelectricbill",
-      title: "K-Electric",
-      img: "/images/ElectricCompaniesImages/kelectricbill.png",
-    },
+    // {
+    //   id: "kelectricbill",
+    //   title: "K-Electric",
+    //   img: "/images/ElectricCompaniesImages/kelectricbill.png",
+    // },
   ];
 
   return (
     <section className="max-w-screen-xl mx-auto px-4 py-8" style={{fontFamily:"kufi"}}>
-      <h2 className="text-3xl font-bold text-center mb-6 dark:text-white">
+      <h2 className="text-4xl font-bold text-center mb-6 dark:text-white">
         Electric Supply Companies
       </h2>
 

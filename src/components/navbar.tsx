@@ -16,7 +16,7 @@ import clsx from "clsx";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
-import { HeartFilledIcon, SearchIcon} from "@/components/icons";
+import { HeartFilledIcon, SearchIcon } from "@/components/icons";
 
 export const Navbar = () => {
   const searchInput = (
@@ -68,7 +68,8 @@ export const Navbar = () => {
                 color="foreground"
                 href={item.href}
               >
-                {item.Icon && <item.Icon className="mr-2" />}{" "}{/* Render the icon if available */}
+                {item.Icon && <item.Icon className="mr-2" />}{" "}
+                {/* Render the icon if available */}
                 {item.label}
               </Link>
             </NavbarItem>
@@ -108,17 +109,8 @@ export const Navbar = () => {
         <div className="mx-4 mt-2 flex flex-col gap-2">
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
-              <Link
-                color={
-                  index === 2
-                    ? "primary"
-                    : index === siteConfig.navMenuItems.length - 1
-                      ? "danger"
-                      : "foreground"
-                }
-                href="#"
-                size="lg"
-              >
+              <Link color={"foreground"} href={item.href} size="lg">
+              {item.Icon && <item.Icon className="mr-2" />}
                 {item.label}
               </Link>
             </NavbarMenuItem>
