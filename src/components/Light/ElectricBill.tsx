@@ -3,11 +3,9 @@ import { useState } from "react";
 import { Input } from "@heroui/input";
 import { Button } from "@heroui/button";
 import { Card, CardHeader, CardBody, CardFooter } from "@heroui/card";
-import { Spinner } from "@heroui/spinner";
-import { Skeleton } from "@heroui/skeleton";
 import { RadioGroup, Radio } from "@heroui/radio";
 import { Divider } from "@heroui/divider";
-import { Avatar, AvatarIcon } from "@heroui/avatar";
+import { Avatar } from "@heroui/avatar";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 
@@ -139,6 +137,11 @@ const ElectricBill = () => {
               value={inputValue}
               onChange={handleInputChange}
             />
+          )}
+          {error && (
+            <p className="text-red-500 text-sm mt-2">
+              {error}
+            </p>
           )}
         </CardBody>
         <Divider />

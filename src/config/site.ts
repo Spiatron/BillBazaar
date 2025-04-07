@@ -4,7 +4,6 @@ import { FaFire } from "react-icons/fa";
 import { FaRegLightbulb } from "react-icons/fa6";
 import { FaInfoCircle } from "react-icons/fa";
 import { RiContactsFill } from "react-icons/ri";
-import { BsReceiptCutoff } from "react-icons/bs";
 
 export const siteConfig = {
   name: "Bill Bazar",
